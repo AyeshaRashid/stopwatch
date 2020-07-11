@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(204, 227, 235);
+    margin-top: 70px;
+}
+.container{
+    height: 150px;
+    width: 30%;
+    border: black 3px solid;
+    border-radius: 5px;
+    background-color: rgb(253, 246, 233);
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+#display{
+    font-size: 60px;
+    text-align: center;
+    margin: 0px auto;
+}
+.buttons{
+    text-align: center;
+}
+.btn{
+    color: rgb(7, 65, 65);
+    background-color: lightgray;
+}
+
+@media screen and (max-width: 830px) {
+    body {
+      background-color: pink;
+    }
+    #display {
+        font-size: 30px;
+    }
+    .container {
+        height: 100px;
+    }
+}
